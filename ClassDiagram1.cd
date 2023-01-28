@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="University_Management_System.Campus" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8wFAJxAAgSJgDScAAACMQaAiFAQhAOAQSAAwAcBAQYM=</HashCode>
+      <FileName>Campus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Courses" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>80FAJxABgSIgDSUoAMCMQSAiEBQpwKgQSAAgAcBAQYM=</HashCode>
+      <FileName>Courses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Department" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AFAJxAAgSIgDacAAACNQQAiEAQBAKAQSAAgAcjAQYs=</HashCode>
+      <FileName>Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.DialogBox" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACIAAACAAAAAAAACAABECAAIAAIAAAQAAABEAAAA=</HashCode>
+      <FileName>DialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Faculty" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/0FAJxAAxSYmDScAAACEQSAiEAQhAKEQSgAoAcRAQZM=</HashCode>
+      <FileName>Faculty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Fees" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8gMAIxAAACIADScAAACMQRAikAIhBKAWwAAgAdBAU4M=</HashCode>
+      <FileName>Fees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Login" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIA4IAAADEAACEAAAiERAACIEQmAoAAAACAQAAAIQ0=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Home" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ugEAIxAASCMACTOAAICOREAjUAAgACEQSAIgYcBAQaM=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Program" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Salaries" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8gMAIxAAACIADScQAAiOQQAiEAwjEKAwyAEgAcBAQ4M=</HashCode>
+      <FileName>Salaries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Signup" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAACADAACCEMIAiEAAACAEwGAoABAAAAQEAACAE=</HashCode>
+      <FileName>Signup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Student" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/1FAJxAQgSIgDScAAADMQWAiMAYhAKCQSAAhAcBAQ4I=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="University_Management_System.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
