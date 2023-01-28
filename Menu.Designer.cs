@@ -52,8 +52,6 @@ namespace University_Management_System
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.LogOut_Lbl = new System.Windows.Forms.Label();
             this.Camp_Lbl = new System.Windows.Forms.Label();
             this.Sal_Lbl = new System.Windows.Forms.Label();
@@ -82,6 +80,7 @@ namespace University_Management_System
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,12 +95,12 @@ namespace University_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.SPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,7 +124,7 @@ namespace University_Management_System
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 90);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 87);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(56, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -228,6 +227,7 @@ namespace University_Management_System
             this.FPanel.Controls.Add(this.FinancesLbl);
             this.FPanel.Controls.Add(this.pictureBox14);
             this.FPanel.Controls.Add(this.label19);
+            this.FPanel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FPanel.Location = new System.Drawing.Point(220, 458);
             this.FPanel.Name = "FPanel";
             this.FPanel.ShowBorders = true;
@@ -238,11 +238,11 @@ namespace University_Management_System
             // 
             this.FinancesLbl.AutoSize = true;
             this.FinancesLbl.BackColor = System.Drawing.Color.Transparent;
-            this.FinancesLbl.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinancesLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FinancesLbl.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.FinancesLbl.Location = new System.Drawing.Point(98, 64);
+            this.FinancesLbl.Location = new System.Drawing.Point(124, 64);
             this.FinancesLbl.Name = "FinancesLbl";
-            this.FinancesLbl.Size = new System.Drawing.Size(59, 25);
+            this.FinancesLbl.Size = new System.Drawing.Size(38, 17);
             this.FinancesLbl.TabIndex = 2;
             this.FinancesLbl.Text = "Num";
             // 
@@ -261,10 +261,10 @@ namespace University_Management_System
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(113, 25);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(82, 21);
+            this.label19.Size = new System.Drawing.Size(61, 17);
             this.label19.TabIndex = 2;
             this.label19.Text = "Finances";
             // 
@@ -279,6 +279,7 @@ namespace University_Management_System
             this.SPanel.Controls.Add(this.Salary_Lbl);
             this.SPanel.Controls.Add(this.pictureBox15);
             this.SPanel.Controls.Add(this.label20);
+            this.SPanel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SPanel.Location = new System.Drawing.Point(524, 458);
             this.SPanel.Name = "SPanel";
             this.SPanel.ShowBorders = true;
@@ -289,11 +290,11 @@ namespace University_Management_System
             // 
             this.Salary_Lbl.AutoSize = true;
             this.Salary_Lbl.BackColor = System.Drawing.Color.Transparent;
-            this.Salary_Lbl.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Salary_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Salary_Lbl.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Salary_Lbl.Location = new System.Drawing.Point(110, 62);
+            this.Salary_Lbl.Location = new System.Drawing.Point(127, 62);
             this.Salary_Lbl.Name = "Salary_Lbl";
-            this.Salary_Lbl.Size = new System.Drawing.Size(59, 25);
+            this.Salary_Lbl.Size = new System.Drawing.Size(38, 17);
             this.Salary_Lbl.TabIndex = 2;
             this.Salary_Lbl.Text = "Num";
             // 
@@ -312,10 +313,10 @@ namespace University_Management_System
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(119, 23);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 21);
+            this.label20.Size = new System.Drawing.Size(55, 17);
             this.label20.TabIndex = 2;
             this.label20.Text = "Salaries";
             // 
@@ -325,49 +326,24 @@ namespace University_Management_System
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Georgia", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.bunifuLabel1.Location = new System.Drawing.Point(440, 33);
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.Location = new System.Drawing.Point(329, 33);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(229, 29);
+            this.bunifuLabel1.Size = new System.Drawing.Size(413, 32);
             this.bunifuLabel1.TabIndex = 5;
-            this.bunifuLabel1.Text = "Bahria University";
+            this.bunifuLabel1.Text = "University Of Vocational Technology";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic);
-            this.bunifuLabel2.Location = new System.Drawing.Point(469, 65);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(170, 18);
-            this.bunifuLabel2.TabIndex = 5;
-            this.bunifuLabel2.Text = "Discovering Knowledge";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(424, 132);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(269, 183);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 6;
-            this.pictureBox16.TabStop = false;
             // 
             // LogOut_Lbl
             // 
             this.LogOut_Lbl.AutoSize = true;
             this.LogOut_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LogOut_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogOut_Lbl.Location = new System.Drawing.Point(76, 607);
+            this.LogOut_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut_Lbl.Location = new System.Drawing.Point(76, 598);
             this.LogOut_Lbl.Name = "LogOut_Lbl";
-            this.LogOut_Lbl.Size = new System.Drawing.Size(66, 21);
+            this.LogOut_Lbl.Size = new System.Drawing.Size(52, 17);
             this.LogOut_Lbl.TabIndex = 34;
             this.LogOut_Lbl.Text = "Logout";
             this.LogOut_Lbl.Click += new System.EventHandler(this.LogOut_Lbl_Click);
@@ -376,10 +352,10 @@ namespace University_Management_System
             // 
             this.Camp_Lbl.AutoSize = true;
             this.Camp_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Camp_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Camp_Lbl.Location = new System.Drawing.Point(75, 543);
+            this.Camp_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Camp_Lbl.Location = new System.Drawing.Point(75, 531);
             this.Camp_Lbl.Name = "Camp_Lbl";
-            this.Camp_Lbl.Size = new System.Drawing.Size(75, 21);
+            this.Camp_Lbl.Size = new System.Drawing.Size(57, 17);
             this.Camp_Lbl.TabIndex = 33;
             this.Camp_Lbl.Text = "Campus";
             this.Camp_Lbl.Click += new System.EventHandler(this.Camp_Lbl_Click);
@@ -388,10 +364,10 @@ namespace University_Management_System
             // 
             this.Sal_Lbl.AutoSize = true;
             this.Sal_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Sal_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sal_Lbl.Location = new System.Drawing.Point(77, 477);
+            this.Sal_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sal_Lbl.Location = new System.Drawing.Point(77, 465);
             this.Sal_Lbl.Name = "Sal_Lbl";
-            this.Sal_Lbl.Size = new System.Drawing.Size(60, 21);
+            this.Sal_Lbl.Size = new System.Drawing.Size(46, 17);
             this.Sal_Lbl.TabIndex = 32;
             this.Sal_Lbl.Text = "Salary";
             this.Sal_Lbl.Click += new System.EventHandler(this.Sal_Lbl_Click);
@@ -400,10 +376,10 @@ namespace University_Management_System
             // 
             this.FeeLbl.AutoSize = true;
             this.FeeLbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FeeLbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FeeLbl.Location = new System.Drawing.Point(78, 413);
+            this.FeeLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FeeLbl.Location = new System.Drawing.Point(78, 403);
             this.FeeLbl.Name = "FeeLbl";
-            this.FeeLbl.Size = new System.Drawing.Size(47, 21);
+            this.FeeLbl.Size = new System.Drawing.Size(35, 17);
             this.FeeLbl.TabIndex = 31;
             this.FeeLbl.Text = "Fees";
             this.FeeLbl.Click += new System.EventHandler(this.FeeLbl_Click);
@@ -412,10 +388,10 @@ namespace University_Management_System
             // 
             this.Course_Lbl.AutoSize = true;
             this.Course_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Course_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Course_Lbl.Location = new System.Drawing.Point(75, 353);
+            this.Course_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Course_Lbl.Location = new System.Drawing.Point(75, 343);
             this.Course_Lbl.Name = "Course_Lbl";
-            this.Course_Lbl.Size = new System.Drawing.Size(74, 21);
+            this.Course_Lbl.Size = new System.Drawing.Size(56, 17);
             this.Course_Lbl.TabIndex = 30;
             this.Course_Lbl.Text = "Courses";
             this.Course_Lbl.Click += new System.EventHandler(this.Course_Lbl_Click);
@@ -424,10 +400,10 @@ namespace University_Management_System
             // 
             this.Fac_Lbl.AutoSize = true;
             this.Fac_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Fac_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Fac_Lbl.Location = new System.Drawing.Point(74, 294);
+            this.Fac_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fac_Lbl.Location = new System.Drawing.Point(74, 282);
             this.Fac_Lbl.Name = "Fac_Lbl";
-            this.Fac_Lbl.Size = new System.Drawing.Size(70, 21);
+            this.Fac_Lbl.Size = new System.Drawing.Size(52, 17);
             this.Fac_Lbl.TabIndex = 29;
             this.Fac_Lbl.Text = "Faculty";
             this.Fac_Lbl.Click += new System.EventHandler(this.Fac_Lbl_Click);
@@ -436,10 +412,10 @@ namespace University_Management_System
             // 
             this.Dept_Lbl.AutoSize = true;
             this.Dept_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Dept_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dept_Lbl.Location = new System.Drawing.Point(74, 234);
+            this.Dept_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dept_Lbl.Location = new System.Drawing.Point(74, 222);
             this.Dept_Lbl.Name = "Dept_Lbl";
-            this.Dept_Lbl.Size = new System.Drawing.Size(105, 21);
+            this.Dept_Lbl.Size = new System.Drawing.Size(82, 17);
             this.Dept_Lbl.TabIndex = 35;
             this.Dept_Lbl.Text = "Department";
             this.Dept_Lbl.Click += new System.EventHandler(this.Dept_Lbl_Click);
@@ -448,10 +424,10 @@ namespace University_Management_System
             // 
             this.Student_Lbl.AutoSize = true;
             this.Student_Lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Student_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Student_Lbl.Location = new System.Drawing.Point(74, 176);
+            this.Student_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Student_Lbl.Location = new System.Drawing.Point(74, 164);
             this.Student_Lbl.Name = "Student_Lbl";
-            this.Student_Lbl.Size = new System.Drawing.Size(71, 21);
+            this.Student_Lbl.Size = new System.Drawing.Size(56, 17);
             this.Student_Lbl.TabIndex = 28;
             this.Student_Lbl.Text = "Student";
             this.Student_Lbl.Click += new System.EventHandler(this.Student_Lbl_Click);
@@ -459,10 +435,10 @@ namespace University_Management_System
             // Home_Lbl
             // 
             this.Home_Lbl.AutoSize = true;
-            this.Home_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Home_Lbl.Location = new System.Drawing.Point(74, 118);
+            this.Home_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Home_Lbl.Location = new System.Drawing.Point(74, 103);
             this.Home_Lbl.Name = "Home_Lbl";
-            this.Home_Lbl.Size = new System.Drawing.Size(58, 21);
+            this.Home_Lbl.Size = new System.Drawing.Size(45, 17);
             this.Home_Lbl.TabIndex = 27;
             this.Home_Lbl.Text = "Home";
             // 
@@ -535,6 +511,7 @@ namespace University_Management_System
             this.bunifuPanel1.Controls.Add(this.pictureBox13);
             this.bunifuPanel1.Controls.Add(this.pictureBox12);
             this.bunifuPanel1.Controls.Add(this.pictureBox11);
+            this.bunifuPanel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuPanel1.Location = new System.Drawing.Point(830, 72);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
@@ -545,11 +522,11 @@ namespace University_Management_System
             // 
             this.Faculty_Lbl.AutoSize = true;
             this.Faculty_Lbl.BackColor = System.Drawing.Color.Transparent;
-            this.Faculty_Lbl.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Faculty_Lbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Faculty_Lbl.ForeColor = System.Drawing.Color.White;
-            this.Faculty_Lbl.Location = new System.Drawing.Point(99, 439);
+            this.Faculty_Lbl.Location = new System.Drawing.Point(115, 442);
             this.Faculty_Lbl.Name = "Faculty_Lbl";
-            this.Faculty_Lbl.Size = new System.Drawing.Size(49, 21);
+            this.Faculty_Lbl.Size = new System.Drawing.Size(38, 17);
             this.Faculty_Lbl.TabIndex = 7;
             this.Faculty_Lbl.Text = "Num";
             // 
@@ -557,11 +534,11 @@ namespace University_Management_System
             // 
             this.Camp_Num.AutoSize = true;
             this.Camp_Num.BackColor = System.Drawing.Color.Black;
-            this.Camp_Num.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Camp_Num.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Camp_Num.ForeColor = System.Drawing.Color.White;
-            this.Camp_Num.Location = new System.Drawing.Point(103, 337);
+            this.Camp_Num.Location = new System.Drawing.Point(115, 340);
             this.Camp_Num.Name = "Camp_Num";
-            this.Camp_Num.Size = new System.Drawing.Size(49, 21);
+            this.Camp_Num.Size = new System.Drawing.Size(38, 17);
             this.Camp_Num.TabIndex = 8;
             this.Camp_Num.Text = "Num";
             // 
@@ -586,11 +563,11 @@ namespace University_Management_System
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Black;
-            this.label17.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(83, 410);
+            this.label17.Location = new System.Drawing.Point(100, 413);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 21);
+            this.label17.Size = new System.Drawing.Size(68, 17);
             this.label17.TabIndex = 9;
             this.label17.Text = "Facultiess";
             // 
@@ -598,11 +575,11 @@ namespace University_Management_System
             // 
             this.Dept_Num.AutoSize = true;
             this.Dept_Num.BackColor = System.Drawing.Color.Black;
-            this.Dept_Num.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dept_Num.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dept_Num.ForeColor = System.Drawing.Color.White;
-            this.Dept_Num.Location = new System.Drawing.Point(102, 234);
+            this.Dept_Num.Location = new System.Drawing.Point(115, 237);
             this.Dept_Num.Name = "Dept_Num";
-            this.Dept_Num.Size = new System.Drawing.Size(49, 21);
+            this.Dept_Num.Size = new System.Drawing.Size(38, 17);
             this.Dept_Num.TabIndex = 10;
             this.Dept_Num.Text = "Num";
             // 
@@ -610,11 +587,11 @@ namespace University_Management_System
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Black;
-            this.label15.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(83, 307);
+            this.label15.Location = new System.Drawing.Point(99, 310);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(91, 21);
+            this.label15.Size = new System.Drawing.Size(70, 17);
             this.label15.TabIndex = 11;
             this.label15.Text = "Campuses";
             // 
@@ -622,11 +599,11 @@ namespace University_Management_System
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(53, 31);
+            this.label10.Location = new System.Drawing.Point(71, 31);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 25);
+            this.label10.Size = new System.Drawing.Size(63, 17);
             this.label10.TabIndex = 12;
             this.label10.Text = "Statistics";
             // 
@@ -634,11 +611,11 @@ namespace University_Management_System
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Black;
-            this.label13.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(81, 204);
+            this.label13.Location = new System.Drawing.Point(90, 207);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(113, 21);
+            this.label13.Size = new System.Drawing.Size(88, 17);
             this.label13.TabIndex = 13;
             this.label13.Text = "Departments";
             // 
@@ -646,11 +623,11 @@ namespace University_Management_System
             // 
             this.Student_Num.AutoSize = true;
             this.Student_Num.BackColor = System.Drawing.Color.Black;
-            this.Student_Num.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Student_Num.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Student_Num.ForeColor = System.Drawing.Color.White;
-            this.Student_Num.Location = new System.Drawing.Point(100, 131);
+            this.Student_Num.Location = new System.Drawing.Point(115, 134);
             this.Student_Num.Name = "Student_Num";
-            this.Student_Num.Size = new System.Drawing.Size(49, 21);
+            this.Student_Num.Size = new System.Drawing.Size(38, 17);
             this.Student_Num.TabIndex = 14;
             this.Student_Num.Text = "Num";
             // 
@@ -658,11 +635,11 @@ namespace University_Management_System
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Black;
-            this.label11.Font = new System.Drawing.Font("Elephant", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(83, 101);
+            this.label11.Location = new System.Drawing.Point(103, 104);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(79, 21);
+            this.label11.Size = new System.Drawing.Size(62, 17);
             this.label11.TabIndex = 15;
             this.label11.Text = "Students";
             // 
@@ -707,12 +684,25 @@ namespace University_Management_System
             // 
             this.guna2DragControl2.TargetControl = this;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(423, 135);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(224, 192);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 138;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1070, 652);
+            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.MinimizeBtn);
             this.Controls.Add(this.CloseBtn);
             this.Controls.Add(this.panel3);
@@ -727,8 +717,6 @@ namespace University_Management_System
             this.Controls.Add(this.Dept_Lbl);
             this.Controls.Add(this.Student_Lbl);
             this.Controls.Add(this.Home_Lbl);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.bunifuLabel2);
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -742,6 +730,7 @@ namespace University_Management_System
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuPanel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -762,13 +751,13 @@ namespace University_Management_System
             this.SPanel.ResumeLayout(false);
             this.SPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -791,8 +780,6 @@ namespace University_Management_System
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Label label19;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Label LogOut_Lbl;
         private System.Windows.Forms.Label Camp_Lbl;
         private System.Windows.Forms.Label Sal_Lbl;
@@ -827,6 +814,7 @@ namespace University_Management_System
         private System.Windows.Forms.PictureBox pictureBox11;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
 
