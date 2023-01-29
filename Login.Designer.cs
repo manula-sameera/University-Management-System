@@ -106,11 +106,11 @@ namespace University_Management_System
             this.bunifuLabel5.Location = new System.Drawing.Point(18, 329);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(262, 63);
+            this.bunifuLabel5.Size = new System.Drawing.Size(262, 105);
             this.bunifuLabel5.TabIndex = 1;
             this.bunifuLabel5.Text = "P.G.P.D.Dharmasiri SOF/20/B2/36\r\nH.A.C.Umayanga SOF/20/b2/44\r\nA.M.G.M.S.Bandara S" +
-    "OF/20/B1/10";
-            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+    "OF/20/B1/10\r\nG.K.H.M.Deshapriya SOF/20/B2/18\r\nP.A.N.N.Apsara SOF/20/B2/04";
+            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuLabel4

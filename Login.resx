@@ -158,7 +158,7 @@
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAXAAAAFoCAYAAABOnKDJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAA/7JJREFUeF7sfXV8lFf2/v52u7RdKku7Ld1ud+slQHwyrnHBrS3QFg8WAnF3dw8R
+        DwAACw8BkvkDpQAA/7JJREFUeF7sfXV8lFf2/v52u7RdKku7Ld1ud+slQHwyrnHBrS3QFg8WAnF3dw8R
         QpDgxd09WIhDsEAplOKupfD8zrmha0xY+W5bKPPH8xl4Ce87kzn3uc8598ivAJhgggkmmPAEwuhFE0ww
         wQQTHn8YvWiCCSaYYMLjD6MXTTDBBBNMePxh9KIJJphgggmPP4xeNMEEE0ww4fGH0YsmmGCCCSY8/jB6
         0QQTTDDBhMcfRi+aYIIJJpjw+MPoRRNMMMEEEx5/GL1oggkmmGDC4w+jF00wwQQTTHj8YfSiCSaYYIIJ
@@ -3282,7 +3282,7 @@
 </value>
   </data>
   <data name="bunifuLabel5.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Century Gothic'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(47, 79, 79); text-align: left; }</value>
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Century Gothic'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(47, 79, 79); text-align: center; }</value>
   </data>
   <data name="bunifuLabel4.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Century Gothic'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(47, 79, 79); text-align: left; }</value>
@@ -3343,7 +3343,7 @@
   <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAB09JREFUeF7t3Quon3Mcx/GNMQwzZrStXEKba0yMuW/NLZTbjIRQGIXkkki5REYU
+        EAAACxABrSO9dQAAB09JREFUeF7t3Quon3Mcx/GNMQwzZrStXEKba0yMuW/NLZTbjIRQGIXkkki5REYU
         Q0o2US65LhnDSJNLbK6bW25rRpS57ob3p85Zp+N7Os/zf37P5ff8vp961Vrn/J/n9/t/z//y/C7PgJZn
         XeyB8zAdT2IBfsIv+A3/4i98j4WYi3sxDQdhKDwRZRQuwfP4FXqCi1iNN3EdxmMdeBqWjXAOXsUaWE9k
         KF/hGoyGp+YMh/4y9ZJuPVll0ivDE9gdnoozBDfiD1hPTpX+wePYGZ4Kcgy+hvVk1GkV7oSK01NCRkAf
