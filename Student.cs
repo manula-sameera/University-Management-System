@@ -34,9 +34,8 @@ namespace University_Management_System
                 St_DeptIdCb.DataSource = data;
                 Connection.Close();
             }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message, "University Management System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            catch (Exception ex) { 
+                MessageBox.Show(ex.Message, "University Management System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); 
             }   
         }
         private void GetDeptName() 
@@ -142,21 +141,8 @@ namespace University_Management_System
             }
             else
             {
-                try
-                {
-                    Connection.Open();
-                    SqlCommand cmd = new SqlCommand("Delete from StudentTbl where StId=@StKey", Connection);
-                    cmd.Parameters.AddWithValue("@StKey", Key);
-                    cmd.ExecuteNonQuery();
-                    DialogBox Db = new DialogBox("Student Deleted");
-                    Db.ShowDialog();
-                    Connection.Close();
-                    Display();
-                }
-                catch (Exception Ex)
-                {
-                    MessageBox.Show(Ex.Message);
-                }
+                
+                
                 Reset();
             }
         }
