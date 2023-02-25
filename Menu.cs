@@ -23,6 +23,7 @@ namespace University_Management_System
             SumFinances();
             SumSalary();
         }
+        //connection
         SqlConnection Connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\UniversityDataBase.mdf;Integrated Security=True");
 
         private void Count_Students() 
@@ -143,6 +144,14 @@ namespace University_Management_System
             Salaries Sal = new Salaries();
             this.Hide();
             Sal.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            reports reports = new reports();
+            reports.Show();
+            this.Hide();
+                
         }
     }
 }
